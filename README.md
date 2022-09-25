@@ -19,7 +19,7 @@ Each subsection contains a `DEFINITION` an `EXPERIMENT` and a `HOW TO RUN` secti
                 <li><a href="./1_working_with_multiple_files/1_headers">Headers</a></li>
                 <li><a href="./1_working_with_multiple_files/2_dividing_projects">Decoupling Projects</a></li>
                 <li><a href="./1_working_with_multiple_files/3_makefile">Makefiles</a></li>
-                <li><a href="./1_working_with_multiple_files/4_modulerization_with_headers">Modulerization with Headers</a></li>
+                <li><a href="./1_working_with_multiple_files/4_modularization_with_headers">Modularization with Headers</a></li>
             </ol>
         </details>
     <li><a href="./2_storage_and_data_types">Storage & Data Types</a></li>
