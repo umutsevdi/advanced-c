@@ -9,6 +9,11 @@ type of data. `register` storage class defines the local variabe inside the CPU
 register instead of the Random Access Memory. Using the register variables
 allow faster access to the values.
 
+Number of variables tagged as `register` is equal to the number of register your
+CPU has. Register storage class is a hint. It may not be applied when the program
+is running. If all CPU registers are being used, variable will be saved to the
+memory instead.
+
 ## Experiment
 
 Using the register storage class we can reduce time to access to the `int *arr`.
