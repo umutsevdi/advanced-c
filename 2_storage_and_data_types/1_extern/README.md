@@ -15,16 +15,16 @@ By initializing variables with the same name links them together.
  ┌> int external_variable = 5;
  │  int main(void) {
  │      printf("%d\n", external_variable);
- │      intc_exvar(10);
+ │      inc_exvar(10);
  │      printf("%d\n", external_variable);
  │  }
  │
  /*--- extern.c ---*/
  │  #include "extern.h"
  │  #include <stdio.h>
- └>  extern int exvar;
+ └>  extern int external_variable;
      void inc_exvar(int amount) {
-         exvar += amount;
+         external_variable += amount;
      }
 ```
 
