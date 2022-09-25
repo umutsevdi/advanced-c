@@ -28,6 +28,7 @@ Each subsection contains a `DEFINITION` an `EXPERIMENT` and a `HOW TO RUN` secti
         <ol>
             <li><a href="./2_storage_and_data_types/1_extern">Extern</a></li>
             <li><a href="./2_storage_and_data_types/2_static">Static</a></li>
+            <li><a href="./2_storage_and_data_types/3_register">Register</a></li>
         </ol>
     </details>
   </ol>
