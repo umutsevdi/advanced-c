@@ -32,7 +32,8 @@ Each subsection contains a `DEFINITION` an `EXPERIMENT` and a `HOW TO RUN` secti
             <li><a href="./2_storage_and_data_types/2_static">Static</a></li>
             <li><a href="./2_storage_and_data_types/3_register">Register</a></li>
             <li><a href="./2_storage_and_data_types/4_designated_initializers">Designated
-            Initializers</a></li>
+            <li><a href="./2_storage_and_data_types/5_type_qualifiers">Type
+            Qualifiers</a></li>
         </ol>
     </details>
   </ol>
