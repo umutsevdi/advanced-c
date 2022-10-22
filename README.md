@@ -35,5 +35,21 @@ Each subsection contains a `DEFINITION` an `EXPERIMENT` and a `HOW TO RUN` secti
             Initializers</a></li>
         </ol>
     </details>
+    <li><a href="./3_bit_manipulation">Bit Manipulation</a></li>
+     <details open>
+        <summary> </summary>
+        <ol>
+            <li><a href="./3_bit_manipulation/1_binary_decimal">Common Operators</a></li>
+            <li><a href="./3_bit_manipulation/2_bitmask">Bit Masks</a></li>
+        </ol>
+    </details>
+    <li><a href="./4_io_and_errors">Input Output & Error Handling</a></li>
+     <details open>
+        <summary> </summary>
+        <ol>
+            <li><a href="4_io_and_errors/1_error_handling">Bit Masking</a></li>
+        </ol>
+    </details>
+
   </ol>
 </details>
