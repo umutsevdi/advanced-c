@@ -19,4 +19,33 @@ functions and error handling makes sense in the top level function.
 
 ```c
 #include <setjmp.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+jmp_buf buf;
+
+void tst_func() {
+    printf("begin: tst_func()\n");
+    /* do something */
+    printf("end: tst_func()\n");
+    longjmp(buf, 1);
+    printf("You will never see this lien of text\n");
+}
+
+int main() {
+    int i = setjmp(buf);
+    printf("the value is = %d\n", i);
+
+    if(buf != 0) {
+        printf("Catched a longjmp, err code: %d", buf);
+    }
+    longjmp(buf, 42);
+    tst_func();
+    printf("exiting without an error\n");
+}
+/* outputs:
+ * the value is 0
+ * the value is 42
+ * then exits
+ */
 ```

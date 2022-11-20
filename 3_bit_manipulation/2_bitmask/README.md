@@ -5,7 +5,7 @@
 A bit mask is a data that is used for bitwise operations. A mask can be used to set
 multiple bits in a byte.
 
-```c
+````c
 #include <stdio.h>
 
 int m_xor(int v) {
@@ -29,7 +29,7 @@ int main() {
  └──────────────────────────────┘
       ^---------^ ^---^ ^-----^
         fn_index  type    arg
-```
+````
 
 By combining these operators we can package complex data types.
 
